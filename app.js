@@ -28,6 +28,11 @@ app.use('/api/users', userRouter);
 app.use('/api/auth', authRouter);
 app.use('/api/photos', photosRouter);
 
+// home page
+app.get('/', (req, res, next) => {
+  res.status(200).json({ message: 'image repository api' });
+});
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));

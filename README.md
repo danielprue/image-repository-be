@@ -1,6 +1,6 @@
 # Image Repository
 
-[Deployed App](https://my-image-repository.herokuapp.com/) | [Front End Repo](https://github.com/danielprue/image-repository-fe)
+[Deployed App](https://my-image-repository.herokuapp.com/) | [Front End Repo](https://github.com/danielprue/image-repository-fe) -- I'm deployed on a free instance, so I might take some time to start up
 
 A react application for searching for photos publicly uploaded by users. This repository contains only the back end. For front end repository or deployed project, 
 click a link above.
